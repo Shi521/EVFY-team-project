@@ -3,12 +3,26 @@ header {
     min-height: 200px;
     padding-top: 3em;
   }
+.logIn{
+    float: right;
+    background-color: #8cc63f;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+}
 .index{
     background: linear-gradient(black,transparent),
                 url(Website\ Images/homePic.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:center
+}
+.SusIndex{
+    background: linear-gradient(rgba(0, 0, 0, 0.582),transparent),
+                url(Website\ Images/sustainindex.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    height: 1000px; 
 }
 .main-header {
     width:100%;
@@ -146,10 +160,10 @@ footer #disclaimer2{
 
 /*About Page*/
 #about .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.596),transparent),
                 url(Website\ Images/aboutpic.jpg);
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position:center;
     min-height: 800px; 
 }
@@ -169,7 +183,7 @@ footer #disclaimer2{
 
 /*Sustainability Index Page*/
 #sustainindex .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
                 url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
@@ -184,7 +198,7 @@ footer #disclaimer2{
 
 /*Roadmay Page*/
 #roadmap .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.589),transparent),
                 url(Website\ Images/roadmapPic.webp);
     background-repeat:no-repeat;
     background-size: 100%;
@@ -195,10 +209,10 @@ footer #disclaimer2{
 
 /*Partners Page*/
 #partner .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.582),transparent),
                 url(Website\ Images/partnerpic.jpg);
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position:center;
     min-height: 1200px;
 }
@@ -213,7 +227,7 @@ form{
     font-size: 20px;
 }
 #contact .index{
-    background: linear-gradient(black,transparent),
+    background: linear-gradient(rgba(0, 0, 0, 0.541),transparent),
                 url(Website\ Images/contactpic.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
@@ -224,7 +238,7 @@ form{
     border:none;
     height: 540px;
     width: 510px;
-    margin-left: 1100px;
+    margin-left: 800px;
     margin-top: 60px;
     padding-left: 30px;
 }
@@ -301,8 +315,74 @@ input[type="submit"]{
 }
 
 
+/*About US*/
+main .about{
+    width: 300px;
+    height: 300px;
+    float: right;
+}
 
+/*signupprogram*/
+#signup main h2{
+    text-align: center;
+    color: #8cc63f;
+}
+#signup main .ptext{
+  
+}
+#signup main p{
+    text-align: center;
+    word-wrap: break-word;
+    padding:0 150px; 
+    font-size: large;
+}
+#signup table{
+    
+    height: 200px;
+    border: 1px solid white;
+    margin:4em auto 0 auto;
+}
+thead{
+    background-color: #8cc63f;
+    color:white;
+    height: 50px;
+}
+tbody{
+    background-color: #bad29b72;
+    height:200px;
 
+}
+tfoot{
+    background-color: #c0ceac33;
+    text-align: center;
+    height:80px;
+}
+tbody ul li{
+    list-style-type:none;
+}
+tbody td:first-child{
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+tfoot td:first-child{
+    font-weight: bold;
+}
+#signup main button{
+    background-color:yellowgreen;
+    border:none;
+    font-size: x-large;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(135, 194, 46);
+    margin:30px auto;
+}
+#signup main .bottompage{
+    
+    text-align: center;
+    width: 70%;
+    margin: 40px auto 10px auto;
+}
 
 
 
