@@ -1,5 +1,4 @@
 # EVFY-team-project
-
-hello world!!
-hi !!
-hi !!!!uyyujhg
+last commit with chris
+hello this is blake
+hi everyone
