@@ -219,11 +219,16 @@ footer #disclaimer2{
 }
 
 #piconi{
-    background-color:lightgrey;
+    background-color:rgba(211, 211, 211, 0.7);
 }
 #sprouts{
-    background-color:lightgrey;
+    background-color:rgba(211, 211, 211, 0.7);
 }
+
+#partnersection h2{
+    color: rgb(135, 194, 46);
+}
+
 /*Contact Us Page*/
 form{
     font-size: 20px;
