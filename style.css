@@ -1,7 +1,6 @@
 header {
     width: 100%;
     min-height: 200px;
-    padding-top: 3em;
   }
 .logIn{
     float: right;
@@ -10,13 +9,13 @@ header {
     width: 100px;
     height: 40px;
 }
-.index{
+/* .index{
     background: linear-gradient(black,transparent),
                 url(Website\ Images/homePic.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:center
-}
+} */
 .SusIndex{
     background: linear-gradient(rgba(0, 0, 0, 0.582),transparent),
                 url(Website\ Images/sustainindex.jpg);
@@ -26,7 +25,6 @@ header {
 }
 .main-header {
     width:100%;
-    margin: 2em auto 0 auto;
     min-height: 100px;
     height: 100px;
   }
@@ -67,9 +65,7 @@ header {
     color: #fff;
   }
 /*intro Index*/
-main{
-    padding-bottom: 80px;
-}
+
 main .introIndex{
     background-color: rgba(255, 254, 254, 0.678);
     width: 800px;
@@ -215,13 +211,19 @@ footer #disclaimer2{
     background-size: cover;
     background-position:center;
     min-height: 1000px;
+    
 }
-#partner main h1{
-    text-align: center;
+#partner h1{
     font-size: 80px;
+    text-align: center;
 }
 
-
+#piconi{
+    background-color:lightgrey;
+}
+#sprouts{
+    background-color:lightgrey;
+}
 /*Contact Us Page*/
 form{
     font-size: 20px;
