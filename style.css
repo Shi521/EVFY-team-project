@@ -183,9 +183,6 @@ footer #disclaimer2{
     background-position:center;
   
 }
-.main1 h3{
-    display: inline-block;
-}
 .teampic{
     margin-left: 20px;
     margin-top: 30px;
@@ -198,6 +195,7 @@ footer #disclaimer2{
     margin-left:80px;
     margin-top: 20px;
 }
+
 
 /*our mission*/
 #mission header{
@@ -239,7 +237,22 @@ footer #disclaimer2{
     background-position:center;
     min-height: 1200px;
 }
+#roadmap .map{
 
+    color: #fff;
+}
+.roadmap{
+    float:left;
+    margin-left: 300px;
+    width:300px;
+    height:200px;
+}
+.roadmapc {
+    float: right;
+    width:300px;
+    height:200px;
+    margin-right: 300px;
+}
 
 /*Partners Page*/
 #partner .index{
