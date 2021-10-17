@@ -9,13 +9,13 @@ header {
     width: 100px;
     height: 40px;
 }
-/* .index{
+ #index{
     background: linear-gradient(black,transparent),
                 url(Website\ Images/homePic.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:center
-} */
+} 
 .SusIndex{
     background: linear-gradient(rgba(0, 0, 0, 0.582),transparent),
                 url(Website\ Images/sustainindex.jpg);
@@ -175,6 +175,13 @@ footer #disclaimer2{
     float: right;
     margin-right: 20px;
     margin-top: 85px;
+}
+#team{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-height: 800px; 
 }
 
 /*Sustainability Index Page*/
