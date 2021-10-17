@@ -176,13 +176,26 @@ footer #disclaimer2{
     margin-right: 20px;
     margin-top: 85px;
 }
-#team{
+#team header{
     background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
-    min-height: 800px; 
+  
 }
+.main1 h3{
+    display: inline-block;
+}
+.teampic{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.teampics img{
+    width: 50%;
+    
+}
+
 
 /*Sustainability Index Page*/
 #sustainindex .index{
