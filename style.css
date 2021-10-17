@@ -210,12 +210,7 @@ footer #disclaimer2{
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
-<<<<<<< HEAD
-    min-height: 1200px;
-=======
-    min-height: 1000px;
-    
->>>>>>> 2acee32aa5bd2882824589c6b85d4c9563cb5444
+    height:700px;
 }
 #partner h1{
     font-size: 80px;
