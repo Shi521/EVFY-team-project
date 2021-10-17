@@ -199,7 +199,22 @@ footer #disclaimer2{
     margin-top: 20px;
 }
 
-
+/*our mission*/
+#mission header{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#mission img{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;;
+}
+#mission .missionp{
+    float:right;
+    margin-right:200px;
+}
 /*Sustainability Index Page*/
 #sustainindex .index{
     background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
