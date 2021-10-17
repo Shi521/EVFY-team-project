@@ -408,7 +408,7 @@ main .about{
 
 /*signupprogram*/
 #signup .pagecontent{
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.365);
 }
 #signup main h2{
     text-align: center;
@@ -493,7 +493,7 @@ header .pagetext{
     width: 52%;
     float: right;
     padding-bottom: 100px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 header .pagetext h1{
     color:yellowgreen;
