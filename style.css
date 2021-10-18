@@ -539,6 +539,31 @@ header .pagetext p{
     padding-bottom: 90px;
 }
 
+/*EvfyTeam*/
+#team main .mainpic{
+    float:left;
+}
+#team main .maintext{
+    float: right;
+    width:58%;
+    padding-top:80px;
+    padding-right: 90px;
+    
+}
+#team main .maintext h2{
+    color: yellowgreen;
+    margin-bottom: 40px;
+}
+#team main .maintext p{
+    font-size: 23px;
+}
 
 
+#team main .mainpic img {
+    padding-top:30px;
+    padding-left:30px;
+}
 
+.teampics{
+    padding-top: 600px;
+}
