@@ -581,3 +581,25 @@ main .about{
 .teampics{
     padding-top: 600px;
 }
+
+/*see you index score*/
+
+#indexscore .score{
+    background: linear-gradient(rgba(0, 0, 0, 0.582),transparent),
+                url(Website\ Images/Indexscore.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    height: 600px; 
+}
+#indexscore h1{
+    color:#fff;
+    padding-left: 20%;
+}
+#indexscore button{
+    margin-left: 20%;
+}
+
+
+html{
+    background-color: black;
+}
