@@ -9,13 +9,13 @@ header {
     width: 100px;
     height: 40px;
 }
-/* .index{
+ #index{
     background: linear-gradient(black,transparent),
                 url(Website\ Images/homePic.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:center
-} */
+} 
 .SusIndex{
     background: linear-gradient(rgba(0, 0, 0, 0.582),transparent),
                 url(Website\ Images/sustainindex.jpg);
@@ -176,15 +176,51 @@ footer #disclaimer2{
     margin-right: 20px;
     margin-top: 85px;
 }
+#team header{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+  
+}
+.teampic{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.card{
+    display: inline-block;
+}
+.teampics img{
+    width: 50%;
+    margin-left:80px;
+    margin-top: 20px;
+}
 
+
+/*our mission*/
+#mission header{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#mission img{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;;
+}
+#mission .missionp{
+    float:right;
+    margin-right:200px;
+}
 /*Sustainability Index Page*/
 #sustainindex .index{
     background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
                 url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
-    background-size: cover;
-    background-position:center center fixed;
-    min-height: 1000px; 
+    background-size: 100%;
+    background-position:center;
+    min-height: 1200px;
 }
 #sustainindex main h1{
     font-size: 80px;
@@ -199,9 +235,24 @@ footer #disclaimer2{
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:center;
-    min-height: 950px;
+    min-height: 1200px;
 }
+#roadmap .map{
 
+    color: #fff;
+}
+.roadmap{
+    float:left;
+    margin-left: 300px;
+    width:300px;
+    height:200px;
+}
+.roadmapc {
+    float: right;
+    width:300px;
+    height:200px;
+    margin-right: 300px;
+}
 
 /*Partners Page*/
 #partner .index{
@@ -210,8 +261,7 @@ footer #disclaimer2{
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
-    min-height: 1000px;
-    
+    height:700px;
 }
 #partner h1{
     font-size: 80px;
@@ -387,7 +437,133 @@ main .about{
     float: right;
 }
 
+/*signupprogram*/
+#signup .pagecontent{
+    background-color: rgba(211, 211, 211, 0.365);
+}
+#signup main h2{
+    text-align: center;
+    font-size: 50px;
+    color: #8cc63f;
+}
+
+#signup main p{
+    word-wrap: break-word;
+    padding:0 150px; 
+    font-size: xx-large;
+}
+#signup table{
+    
+    height: 200px;
+    margin:4em auto 0 auto;
+}
+thead{
+    background-color: #8cc63f;
+    color:white;
+    height: 50px;
+}
+tbody{
+    background-color: #bad29b72;
+    height:200px;
+
+}
+tfoot{
+    background-color: #c0ceac33;
+    text-align: center;
+    height:80px;
+}
+tbody ul li{
+    list-style-type:none;
+}
+tbody td:first-child{
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+tfoot td:first-child{
+    font-weight: bold;
+}
+td, th{
+    border: 0.5px solid white;
+}
+#signup main button{
+    background-color:yellowgreen;
+    border:1px solid green;
+    font-size: x-large;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(135, 194, 46);
+    margin:30px auto;
+}
+#signup header{
+    padding-top: 100px;
+}
+
+#signup main .bottompage{
+    
+    text-align: center;
+    width: 70%;
+    margin: 40px auto 10px auto;
+}
+header .img{
+    background-color: white;
+    width:700px;
+    margin-left: 30px;
+    float: left;
+}
+header .img img{
+    width: 50%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+header .pagetext{
+    width: 52%;
+    float: right;
+    padding-bottom: 100px;
+    margin-right: 50px;
+}
+header .pagetext h1{
+    color:yellowgreen;
+    font-size: 50px;
+}
+header .pagetext p{
+    font-size: xx-large;
+    padding-top: 60px;
+}
+#signup main{
+    margin-top: 750px;
+    padding-bottom: 90px;
+}
+
+/*EvfyTeam*/
+#team main .mainpic{
+    float:left;
+}
+#team main .maintext{
+    float: right;
+    width:58%;
+    padding-top:80px;
+    padding-right: 90px;
+    
+}
+#team main .maintext h2{
+    color: yellowgreen;
+    margin-bottom: 40px;
+}
+#team main .maintext p{
+    font-size: 23px;
+}
 
 
+#team main .mainpic img {
+    padding-top:30px;
+    padding-left:30px;
+}
 
-
+.teampics{
+    padding-top: 600px;
+}
