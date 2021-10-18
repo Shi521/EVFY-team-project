@@ -594,5 +594,24 @@ main .about{
     margin-left: 20%;
 }
 
+/*sustainanilityIndex1*/
+#mission1 .index{
+background: linear-gradient(rgba(0, 0, 0, 0.582),transparent);
+background-repeat:no-repeat;
+background-size: 100%;
+height: 600px;
+}
+#mission1 main{
+    height: 500px;
+}
+#mission1 .img1{
+    float:right;
+    margin-right:100px;
+}
+#mission1 .missionp{
+    float: left;
+    width:600px;
+    padding-left: 100px;
 
+}
 
