@@ -228,31 +228,146 @@ footer #disclaimer2{
 }
 
 
-/*Roadmay Page*/
+/*Roadmap Page*/
 #roadmap .index{
     background: linear-gradient(rgba(0, 0, 0, 0.589),transparent),
                 url(Website\ Images/roadmapPic.webp);
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:center;
-    min-height: 1200px;
+    min-height: 1000px;
 }
 #roadmap .map{
-
     color: #fff;
+    margin-top: 160px;
 }
-.roadmap{
+.roadmaptext{
     float:left;
-    margin-left: 300px;
-    width:300px;
-    height:200px;
+    margin-left: 200px;
+    width:400px;
+    height:300px;
+    text-align: right;
+    font-size: 30px;
+    border-right: 3px solid white;
+}
+.roadmaptext h1{
+    margin-right: 25px;
 }
 .roadmapc {
     float: right;
-    width:300px;
-    height:200px;
-    margin-right: 300px;
+    width:45%;
+    height:400px;
+    margin-right: 440px;
+    font-size: 28px; 
 }
+
+.roadmapc span{
+    color: yellowgreen;
+}
+.roadmapc p{
+    padding-right: 80px;
+}
+/*Roadmap Page-----signupprogram*/
+
+#roadmap .mbackground{
+    background-color: rgba(211, 211, 211, 0.365);
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+#roadmap main .img{
+    background-color: white;
+    width:700px;
+    margin-left: 30px;
+    float: left;
+}
+#roadmap main .img img{
+    width: 50%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#roadmap main .pagetext{
+    width: 52%;
+    float: right;
+    padding-bottom: 100px;
+    margin-right: 50px;
+}
+#roadmap main .pagetext h1{
+    color:yellowgreen;
+    font-size: 50px;
+}
+#roadmap main .pagetext p{
+    font-size: xx-large;
+    padding-top: 60px;
+}
+
+#roadmap .bottompage{
+    padding-top: 880px;
+    padding-bottom: 90px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 10px auto;
+}
+#roadmap .bottompage h2{
+    text-align: center;
+    font-size: 50px;
+    color: #8cc63f;
+}
+.bottompage p{
+    word-wrap: break-word;
+    padding:0 150px; 
+    font-size: xx-large;
+    text-align: left;
+}
+.bottompage table{
+    height: 200px;
+    margin:4em auto 0 auto;
+}
+
+thead{
+    background-color: #8cc63f;
+    color:white;
+    height: 50px;
+}
+tbody{
+    background-color: #bad29b72;
+    height:200px;
+
+}
+tfoot{
+    background-color: #c0ceac33;
+    text-align: center;
+    height:80px;
+}
+tbody ul li{
+    list-style-type:none;
+}
+tbody td:first-child{
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+tfoot td:first-child{
+    font-weight: bold;
+}
+td, th{
+    border: 0.5px solid white;
+}
+.bottompage button{
+    background-color:yellowgreen;
+    border:1px solid green;
+    font-size: x-large;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(135, 194, 46);
+    margin:30px auto;
+}
+
+
+
+
 
 /*Partners Page*/
 #partner .index{
@@ -437,107 +552,6 @@ main .about{
     float: right;
 }
 
-/*signupprogram*/
-#signup .pagecontent{
-    background-color: rgba(211, 211, 211, 0.365);
-}
-#signup main h2{
-    text-align: center;
-    font-size: 50px;
-    color: #8cc63f;
-}
-
-#signup main p{
-    word-wrap: break-word;
-    padding:0 150px; 
-    font-size: xx-large;
-}
-#signup table{
-    
-    height: 200px;
-    margin:4em auto 0 auto;
-}
-thead{
-    background-color: #8cc63f;
-    color:white;
-    height: 50px;
-}
-tbody{
-    background-color: #bad29b72;
-    height:200px;
-
-}
-tfoot{
-    background-color: #c0ceac33;
-    text-align: center;
-    height:80px;
-}
-tbody ul li{
-    list-style-type:none;
-}
-tbody td:first-child{
-    font-weight: bold;
-    width: 150px;
-    text-align: center;
-}
-tfoot td:first-child{
-    font-weight: bold;
-}
-td, th{
-    border: 0.5px solid white;
-}
-#signup main button{
-    background-color:yellowgreen;
-    border:1px solid green;
-    font-size: x-large;
-    width: 300px;
-    height: 50px;
-    background-color: rgb(135, 194, 46);
-    margin:30px auto;
-}
-#signup header{
-    padding-top: 100px;
-}
-
-#signup main .bottompage{
-    
-    text-align: center;
-    width: 70%;
-    margin: 40px auto 10px auto;
-}
-header .img{
-    background-color: white;
-    width:700px;
-    margin-left: 30px;
-    float: left;
-}
-header .img img{
-    width: 50%;
-    padding-top:30px;
-    padding-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-header .pagetext{
-    width: 52%;
-    float: right;
-    padding-bottom: 100px;
-    margin-right: 50px;
-}
-header .pagetext h1{
-    color:yellowgreen;
-    font-size: 50px;
-}
-header .pagetext p{
-    font-size: xx-large;
-    padding-top: 60px;
-}
-#signup main{
-    margin-top: 750px;
-    padding-bottom: 90px;
-}
 
 /*EvfyTeam*/
 #team main .mainpic{
