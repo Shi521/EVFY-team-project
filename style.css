@@ -213,7 +213,7 @@ footer #disclaimer2{
                 url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
-    background-position:center;
+    background-position:right;
     height:700px;
 }
 #sustainindex main h1{
@@ -594,5 +594,17 @@ main .about{
     margin-left: 20%;
 }
 
-
+/*Sustainability Page*/
+#sustainindex .index{
+    background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
+                url(Website\ Images/sustainindex.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position:center;
+    height:700px;
+}
+#sustainindex main h1{
+    font-size: 60px;
+    margin-left:650px ;
+}
 
