@@ -607,15 +607,17 @@ main .about{
     font-size: 60px;
     margin-left:650px ;
 }
-#sustainindex.missionp {
+#sustainindex .missionp {
     float: left;
     margin-left: 100px;
+    width:500px;
 }
-#sustainindex.img1{
+#sustainindex .img1{
     float: right;
     padding-right: 100px;
+    padding-top: 50px;
 }
 #sustainindex main {
-    height: 600px;
+    height: 400px;
 }
 
