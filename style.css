@@ -208,7 +208,7 @@ footer #disclaimer2{
     margin-right:200px;
 }
 /*Sustainability Index Page*/
-#sustainindex .index{
+#sustainindex header {
     background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
                 url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
@@ -216,7 +216,7 @@ footer #disclaimer2{
     background-position:right;
     height:700px;
 }
-#sustainindex main h1{
+#sustainindex  h1{
     font-size: 60px;
     margin-left:650px ;
 }
@@ -607,15 +607,15 @@ main .about{
     font-size: 60px;
     margin-left:650px ;
 }
-#mission1 .missionp {
+#sustainindex.missionp {
     float: left;
     margin-left: 100px;
 }
-#mission1 .img1{
+#sustainindex.img1{
     float: right;
     padding-right: 100px;
 }
-#mission1 main {
+#sustainindex main {
     height: 600px;
 }
 
