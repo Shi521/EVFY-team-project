@@ -575,7 +575,23 @@ main .about{
 
 .teampics{
     padding-top: 600px;
+    padding-bottom: 10px;
 }
+.teampics .card{
+    border:none;
+    border-bottom: 2px dotted lightgray;
+    
+}
+.teampics .card img{
+    filter: grayscale(100%); 
+}
+.rounded-circle {
+    margin-right: 70px;
+}
+.teampics .card h5{
+    color: yellowgreen;
+}
+
 
 /*see you index score*/
 
