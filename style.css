@@ -591,6 +591,9 @@ main .about{
 .teampics .card h5{
     color: yellowgreen;
 }
+#team footer .contactinfo{
+    padding-top:30px;
+}
 
 
 /*see you index score*/
