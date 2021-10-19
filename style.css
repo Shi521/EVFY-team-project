@@ -594,11 +594,10 @@ main .about{
     margin-left: 20%;
 }
 
-<<<<<<< HEAD
-/*Sustainability Page*/
+/*sustainability Index Page*/
 #sustainindex .index{
     background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
-                url(Website\ Images/sustainindex.jpg);
+    url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:center;
@@ -608,3 +607,15 @@ main .about{
     font-size: 60px;
     margin-left:650px ;
 }
+#mission1 .missionp {
+    float: left;
+    margin-left: 100px;
+}
+#mission1 .img1{
+    float: right;
+    padding-right: 100px;
+}
+#mission1 main {
+    height: 600px;
+}
+
