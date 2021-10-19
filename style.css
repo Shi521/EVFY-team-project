@@ -237,21 +237,23 @@ footer #disclaimer2{
 }
 .roadmaptext{
     float:left;
-    margin-left: 200px;
-    width:400px;
-    height:300px;
-    text-align: right;
+    margin-left: 150px;
+    margin-top: 70px;
+    width:500px;
+    height:350px;
     font-size: 20px;
     border-right: 3px solid white;
 }
 .roadmaptext h1{
     margin-right: 25px;
+    font-size: 76px;
+    text-align: right;
 }
 .roadmapc {
     float: right;
     width:45%;
     height:400px;
-    margin-right: 300;
+    margin-right: 380px;
     font-size: 20px; 
 }
 
@@ -260,6 +262,7 @@ footer #disclaimer2{
 }
 .roadmapc p{
     padding-right: 80px;
+    font-size: 34px;
 }
 /*Roadmap Page-----signupprogram*/
 
