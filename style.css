@@ -550,6 +550,16 @@ main .about{
     float: right;
 }
 
+main .top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;   
+}
+main .top-right img{
+    border-radius: 100%;
+    border: 19px solid rgba(255, 255, 255, 0.646);
+}
+
 
 /*EvfyTeam*/
 #team main .mainpic{
