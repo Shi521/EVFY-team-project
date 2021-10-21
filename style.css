@@ -116,6 +116,7 @@ footer .contactlogo img {
 }
 footer .contactinfo{
     color:white;
+    margin-top: 30px;
 }
 footer .contactinfo h5 {
     text-decoration: underline;
@@ -594,9 +595,7 @@ main .top-right img{
 .teampics .card h5{
     color: yellowgreen;
 }
-#team footer .contactinfo{
-    padding-top:30px;
-}
+
 
 
 /*see you index score*/
