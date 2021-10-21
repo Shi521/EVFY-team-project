@@ -422,6 +422,9 @@ td, th{
 form{
     font-size: 20px;
 }
+#contact main{
+height:750px;
+}
 #contact .index{
     background: linear-gradient(rgba(0, 0, 0, 0.541),transparent),
                 url(Website\ Images/contactpic.jpg);
@@ -434,8 +437,10 @@ form{
     background-color: rgba(255, 254, 254, 0.678);
     border:none;
     height: 640px;
-    width: 30%;
+    width: 40%;
     padding:20px;
+    float:right;
+    margin-right:3%;
     
 }
 
@@ -577,6 +582,7 @@ main .top-right img{
     float: left;
     margin-left: 100px;
     width:500px;
+    margin-top:30px;
 }
 #sustainindex .img1{
     float: right;
@@ -584,17 +590,27 @@ main .top-right img{
     padding-top: 50px;
 }
 #sustainindex main {
-    height: 400px;
+    height: 280px;
 }
-#mission .Page2 {
-    margin-left: 20%;
-    }
-#mission .missionp {
-width: 500px;
-float: right;
-padding-right: 100px;
+#mission .meth{
+    float:left;
 }
-
+#mission .meth h3{
+    padding-left:200px;
+}
+#mission .missionp{
+    float:right;
+    margin-right:5%;
+    width:60%;
+    font-size:20px;
+    margin-top:60px;
+}
+#mission main{
+    height: 500px;
+}
+#mission .meth img{
+    margin-left:20%;
+}
 
 
 
