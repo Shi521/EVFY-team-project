@@ -399,7 +399,8 @@ td, th{
     width: 100%; 
 }
 #earlybird img{
-    height: 300px;
+    height: 250px;
+    margin:10px;
 }
 
 
