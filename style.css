@@ -154,6 +154,21 @@ footer .contactlogo {
 footer #disclaimer2{
     clear:both;
 }
+/* loginButton */
+.logIn {
+    margin-right: 2%;
+    margin-top: 2%;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.logIn a{
+    color:white;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 /*About Page*/
