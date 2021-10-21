@@ -44,11 +44,7 @@ header {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .main-menu ul li a {
-    text-decoration: none;
-    color:white;
-    font-size: 20px;
-  }
+ 
   .main-menu ul li a:hover {
     color: #9ed034;
   }
@@ -58,6 +54,24 @@ header {
   }
   .main-menu ul li.active a {
     color: #fff;
+  }
+  @media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{
+        display: none;
+       }
+    .navbar .nav-item:hover .nav-link{
+      }
+    .navbar .nav-item:hover .dropdown-menu{
+         display: block;
+         background-color: rgb(135, 194, 46);
+       }
+    .navbar .nav-item .dropdown-menu{
+        margin-top:0;
+    }
+}.main-menu ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
   }
   /* .navbar-toggler {
       background-color:#fff !important;
