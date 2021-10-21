@@ -442,6 +442,7 @@ td, th{
 
 
 /*Contact Us Page*/
+
 form{
     font-size: 20px;
 }
@@ -452,64 +453,29 @@ form{
     background-size: 100%;
     height: auto;  
 }
+
 #contact fieldset{
     background-color: rgba(255, 254, 254, 0.678);
     border:none;
-    height: 540px;
-    width: 510px;
-    margin-left: 800px;
-    margin-top: 60px;
-    padding-left: 30px;
-}
-fieldset .textbox .cell{
-    margin-bottom: 19px;
-}
-.textbox label{
-    display: inline-block;
-    width: 100px;
-    text-align: left;
-}
-fieldset .textbox .smallcell{
-    margin-bottom: 19px;
-}
-.textbox input, .randomcode input{
+    height: 640px;
+    width: 30%;
+    padding:20px;
     
-    background-color: rgba(149, 149, 149, 0.284);
-    border:rgba(149, 149, 149, 0.832) 1px solid;
-}
-fieldset .textbox .cell span{
-    font-style: italic;
-}
-.textbox .cell input{
-    width: 380px;
-    height: 20px;
-}
-.textbox .smallcell input, .randomcode input{
-    height: 20px;
 }
 
-.smallcell #city{
-    margin-left:87px ;
-}
-.smallcell #zip{
-    margin-left:87px ;
-}
 
 .randomcode #codes{
     background-color:rgba(12, 110, 247, 0.373) ;
     font-weight: bold;
-    width: 120px;
-    height: 35px;
-    color:white;
-    float: right;
-    margin-right: 60px;
     text-align: center;
-    padding-top: 5px;
+    color:white;
+    height: 135px;
 }
 .codebutton{
     margin-top: 40px;
-    margin-left: 184px;
+    margin-left: 254px;
 }
+
 input[type="reset"]{
     background-color: rgba(138, 137, 137, 0.606);
     color:white;
@@ -531,6 +497,9 @@ input[type="submit"]{
     margin-right: 40px;
     margin-left: 18px;
     font-size: medium;
+}
+.col-sm-4 #city, #zip{
+    margin-left:45px;
 }
 
 
