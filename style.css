@@ -245,13 +245,13 @@ footer #disclaimer2{
 }
 /*Sustainability Index Page*/
 #sustainindex header {
-    background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
-                url(Website\ Images/sustainindex.jpg);
+    background: url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:right;
     height:700px;
 }
+
 #sustainindex  h1{
     font-size: 60px;
     margin-left:650px ;
