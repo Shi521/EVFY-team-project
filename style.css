@@ -60,9 +60,6 @@ header {
     .navbar .nav-item .dropdown-menu{
         display: none;
        }
-    .navbar .nav-item:hover .nav-link{
-    
-      }
     .navbar .nav-item:hover .dropdown-menu{
          display: block;
          background-color: rgb(135, 194, 46);
