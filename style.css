@@ -425,6 +425,14 @@ td, th{
 #piconi img{
     height: 200px;
 }
+#piconi .col-md-4{
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+#piconi .piconilogo{
+    padding-top:20px;
+
+}
 
 #earlybird{
     width: 100%; 
