@@ -276,24 +276,22 @@ footer #disclaimer2{
 }
 .roadmaptext{
     float:left;
-    margin-left: 150px;
-    margin-top: 70px;
-    width:500px;
-    height:350px;
+
+    /* width:500px;
+    height:350px; */
     font-size: 20px;
     border-right: 3px solid white;
 }
 .roadmaptext h1{
-    margin-right: 25px;
-    font-size: 76px;
+    /* margin-right: 25px; */
+    font-size: 50px;
     text-align: right;
 }
 .roadmapc {
     float: right;
     width:45%;
-    height:400px;
     margin-right: 380px;
-    font-size: 20px; 
+    font-size: 15px; 
 }
 
 .roadmapc span{
