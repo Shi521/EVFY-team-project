@@ -324,11 +324,11 @@ footer #disclaimer2{
 }
 #roadmap main .pagetext p{
     font-size: xx-large;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 #roadmap .bottompage{
-    padding-top: 880px;
+    padding-top: 300px;
     padding-bottom: 90px;
     text-align: center;
     width: 70%;
@@ -408,18 +408,21 @@ tbody td:first-child{
 #piconi img{
     height: 200px;
 }
-#piconi .col-md-4{
+#piconi .col-sm-4{
     margin-top:10px;
     margin-bottom: 20px;
+    margin-left:20px;
 }
-#piconi .col
+#piconi .col-sm-2{
+    margin-top:30px;
+    
+}
 
 #earlybird{
     width: 100%; 
 }
 #earlybird img{
     height: 250px;
-    margin:10px;
 }
 
 
