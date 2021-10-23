@@ -442,7 +442,8 @@ tbody td:first-child{
 /*Contact Us Page*/
 
 form{
-    font-size: 20px;
+    font-size: 24px;
+    
 }
 #contact main{
 height:750px;
@@ -461,6 +462,7 @@ height:750px;
     padding:20px;
     float:right;
     margin-right:3%;
+    width:35%;
     
 }
 
