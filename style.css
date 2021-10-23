@@ -54,13 +54,14 @@ header {
     border: none;
   }
   .main-menu ul li.active a {
-    color: #fff;
+    color:#fff;
   }
   @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu{
         display: none;
        }
     .navbar .nav-item:hover .nav-link{
+    
       }
     .navbar .nav-item:hover .dropdown-menu{
          display: block;
@@ -251,6 +252,7 @@ footer #disclaimer2{
     background-size: 100%;
     background-position:right;
     height:700px;
+    
 }
 
 #sustainindex  h1{
@@ -648,6 +650,9 @@ main .top-right img{
 #mission .meth img{
     margin-left:20%;
 }
+
+
+
 
 
 
