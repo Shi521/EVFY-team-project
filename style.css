@@ -355,49 +355,44 @@ footer #disclaimer2{
     font-size: xx-large;
     text-align: left;
 }
-.bottompage table{
-    height: 200px;
-    margin:4em auto 0 auto;
-}
 
+
+.bottompage table{
+    border:1px solid white;
+    font-size: x-large;
+    /* width: 70%;
+    margin:4em auto 0 auto; */
+}
 thead{
     background-color: #8cc63f;
     color:white;
-    height: 50px;
+    height: 50px;  
 }
-tbody{
+
+tbody tr:first-child{
     background-color: #bad29b72;
     height:200px;
+}
+tbody tr:nth-child(2){
+    background-color: #bad29b2e;
+}
 
-}
-tfoot{
-    background-color: #c0ceac33;
-    text-align: center;
-    height:80px;
-}
 tbody ul li{
     list-style-type:none;
 }
 tbody td:first-child{
     font-weight: bold;
-    width: 150px;
-    text-align: center;
-}
-tfoot td:first-child{
-    font-weight: bold;
-}
-td, th{
-    border: 0.5px solid white;
+    vertical-align: middle;
 }
 .bottompage button{
-    background-color:yellowgreen;
-    border:1px solid green;
+    border:1px solid rgba(0, 128, 0, 0.393);
     font-size: x-large;
     width: 300px;
     height: 50px;
     background-color: rgb(135, 194, 46);
     margin:30px auto;
 }
+
 
 
 
