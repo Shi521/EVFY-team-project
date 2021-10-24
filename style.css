@@ -530,7 +530,10 @@ main .top-right img{
 
 
 /*EvfyTeam*/
-#team main .mainpic{
+#team .main1{
+    margin: 100px 50px;
+}
+/* #team main .mainpic{
     float:left;
 }
 #team main .maintext{
@@ -539,14 +542,17 @@ main .top-right img{
     padding-top:80px;
     padding-right: 90px;
     
-}
-#team main .maintext h2{
+} */
+#team main .col-xl-7 h2{
     color: yellowgreen;
-    margin-bottom: 40px;
 }
-#team main .maintext p{
-    font-size: 23px;
+#team main .col-xl-7 p{
+    font-size: 26px;
 }
+#team main .col-xl-7{
+    padding-top:3%;
+}
+
 
 
 #team main .mainpic img {
@@ -555,7 +561,7 @@ main .top-right img{
 }
 
 .teampics{
-    padding-top: 600px;
+    padding-top: 250px;
     padding-bottom: 10px;
 }
 .teampics .card{
