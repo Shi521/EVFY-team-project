@@ -251,19 +251,22 @@ footer #disclaimer2{
     margin-right:200px;
 }
 /*Sustainability Index Page*/
-#sustainindex header {
+#sustainindex .index {
     background: url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
     background-position:right;
-    height:700px;
+    min-height: 1000px;
     
 }
 
 #sustainindex  h1{
-    font-size: 60px;
-    margin-left:650px ;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 10%;
+    font-weight:bolder;
 }
+
 
 
 /*Roadmap Page*/
@@ -595,46 +598,17 @@ main .top-right img{
     background-position:center;
     height:700px;
 }
-#sustainindex main h1{
-    font-size: 60px;
-    margin-left:650px ;
-}
-#sustainindex .missionp {
-    float: left;
-    margin-left: 100px;
-    width:500px;
-    margin-top:30px;
-}
-#sustainindex .img1{
-    float: right;
-    padding-right: 100px;
-    padding-top: 50px;
-}
-#sustainindex main {
-    height: 280px;
-}
-#mission .meth{
-    float:left;
-}
-#mission .meth h3{
-    padding-left:200px;
-}
-#mission .missionp{
-    float:right;
-    margin-right:5%;
-    width:60%;
-    font-size:20px;
-    margin-top:60px;
-}
-#mission main{
-    height: 500px;
-}
-#mission .meth img{
-    margin-left:20%;
-}
 
 
 
+
+#sustainindex .missionp p{
+    font-size: 24px;
+
+}
+#sustainindex main .row{
+    margin:70px 30px;
+}
 
 
 
