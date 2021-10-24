@@ -203,11 +203,16 @@ footer #disclaimer2{
     float: right;
     font-size: 22px;
     margin-right:2%;
-    margin-top: 8%;
+    margin-top: 3%;
+    
 }
 #about .abouttext span{
     font-weight: bolder;
 }
+
+
+
+/* EVFYTEAM page */
 #team header{
     background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
     background-repeat:no-repeat;
