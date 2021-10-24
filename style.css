@@ -241,16 +241,19 @@ footer #disclaimer2{
     background-size: cover;
     background-position:center;
 }
-#mission img{
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 50px;;
+#mission main{
+    margin:150px 100px
 }
-#mission .missionp{
-    float:right;
-    margin-right:200px;
+#mission .missionbox{
+    width: 80%;
+    padding-top: 70px;
 }
-/*Sustainability Index Page*/
+#mission .missionbox p{
+    font-size: 30px;
+}
+
+
+
 #sustainindex .index {
     background: url(Website\ Images/sustainindex.jpg);
     background-repeat:no-repeat;
@@ -598,9 +601,6 @@ main .top-right img{
     background-position:center;
     height:700px;
 }
-
-
-
 
 #sustainindex .missionp p{
     font-size: 24px;
