@@ -190,20 +190,23 @@ footer #disclaimer2{
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
-    min-height: 800px; 
+    min-height: 1000px; 
 }
-#about main h2{
-    font-size: 36px;
+#about main h1{
+    font-size: 70px;
     width: 20px;
     margin-left:100px;
 }
-#about main p{
-    width:550px;
-    height: 300px;
+#about .abouttext{
     background-color: rgba(255, 254, 254, 0.678);
+    width: 40%;
     float: right;
-    margin-right: 20px;
-    margin-top: 85px;
+    font-size: 22px;
+    margin-right:2%;
+    margin-top: 8%;
+}
+#about .abouttext span{
+    font-weight: bolder;
 }
 #team header{
     background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
