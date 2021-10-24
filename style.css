@@ -192,10 +192,11 @@ footer #disclaimer2{
     background-position:center;
     min-height: 800px; 
 }
-#about main h2{
-    font-size: 36px;
+#about h2{
+    font-size: 50px;
     width: 20px;
     margin-left:100px;
+    padding-top: 100px;
 }
 #about main p{
     width:550px;
