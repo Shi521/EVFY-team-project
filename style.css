@@ -515,7 +515,9 @@ height:750px;
     width:35%;
     
 }
-
+#contact .form-group span{
+    font-style: italic;
+}
 
 .randomcode #codes{
     background-color:rgba(12, 110, 247, 0.373) ;
