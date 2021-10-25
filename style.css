@@ -235,36 +235,82 @@ footer #disclaimer2{
 
 
 /*our mission*/
-#mission header{
+#ourmission .index{
     background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
 }
-#mission img{
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 50px;;
+
+#ourmission main .row{
+    margin:150px 100px
 }
-#mission .missionp{
-    float:right;
-    margin-right:200px;
+#ourmission main .missionbox{
+    padding-top: 70px;
+    width: 80%;
 }
-/*Sustainability Index Page*/
-#sustainindex .index {
-    background: url(Website\ Images/sustainindex.jpg);
+#ourmission main .missionbox p{
+    font-size: 30px;
+} 
+
+
+/* Methodology */
+#mission .index{
+    background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
     background-repeat:no-repeat;
-    background-size: 100%;
-    background-position:right;
-    min-height: 1000px;
-    
+    background-size: cover;
+    background-position:center;
+}
+#mission main{
+    height: 750px;
+}
+#mission .row{
+    margin: 60px 50px
+}
+#mission .col-xl-4 h2{
+    text-align: right;
+} 
+#mission .col-xl-8 p{
+    font-size: 28px;
+}
+#mission .col-xl-8 li{
+    font-size: 24px;
+}
+#mission .missionshop{
+    padding-top:9%;
+    padding-left: 3%;
 }
 
+
+
+
+
+
+
+
+
+
+/*Sustainability Index Page*/
+
+#sustainindex .index{
+    background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
+    url(Website\ Images/sustainindex.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position:center;
+    height:1000px;
+}
 #sustainindex  h1{
     font-size: 90px;
     text-align: center;
     margin-top: 10%;
     font-weight:bolder;
+}
+#sustainindex .row{
+    margin:100px 30px;
+}
+#sustainindex .col-xl-6 p{
+    font-size: 24px;
 }
 
 
@@ -469,7 +515,9 @@ height:750px;
     width:40%;
     
 }
-
+#contact .form-group span{
+    font-style: italic;
+}
 
 .randomcode #codes{
     background-color:rgba(12, 110, 247, 0.373) ;
@@ -529,7 +577,10 @@ main .top-right img{
 
 
 /*EvfyTeam*/
-#team main .mainpic{
+#team .main1{
+    margin: 100px 50px;
+}
+/* #team main .mainpic{
     float:left;
 }
 #team main .maintext{
@@ -538,14 +589,17 @@ main .top-right img{
     padding-top:80px;
     padding-right: 90px;
     
-}
-#team main .maintext h2{
+} */
+#team main .col-xl-7 h2{
     color: yellowgreen;
-    margin-bottom: 40px;
 }
-#team main .maintext p{
-    font-size: 23px;
+#team main .col-xl-7 p{
+    font-size: 26px;
 }
+#team main .col-xl-7{
+    padding-top:3%;
+}
+
 
 
 #team main .mainpic img {
@@ -554,7 +608,7 @@ main .top-right img{
 }
 
 .teampics{
-    padding-top: 600px;
+    padding-top: 250px;
     padding-bottom: 10px;
 }
 .teampics .card{
@@ -591,60 +645,7 @@ main .top-right img{
     margin-left: 20%;
 }
 
-/*sustainability Index Page*/
-#sustainindex .index{
-    background: linear-gradient(rgba(0, 0, 0, 0.568),transparent),
-    url(Website\ Images/sustainindex.jpg);
-    background-repeat:no-repeat;
-    background-size: 100%;
-    background-position:center;
-    height:700px;
-}
-#sustainindex main h1{
-    font-size: 60px;
-    margin-left:650px ;
-}
-#sustainindex .missionp {
-    float: left;
-    margin-left: 100px;
-    width:500px;
-    margin-top:30px;
-}
-#sustainindex .img1{
-    float: right;
-    padding-right: 100px;
-    padding-top: 50px;
-}
-#sustainindex main {
-    height: 280px;
-}
-#mission .meth{
-    float:left;
-}
-#mission .meth h3{
-    padding-left:200px;
-}
-#mission .missionp{
-    float:right;
-    margin-right:5%;
-    width:60%;
-    font-size:20px;
-    margin-top:60px;
-}
-#mission main{
-    height: 500px;
-}
-#mission .meth img{
-    margin-left:20%;
-}
 
-#sustainindex .missionp p{
-    font-size: 24px;
-
-}
-#sustainindex main .row{
-    margin:70px 30px;
-}
 
 
 
