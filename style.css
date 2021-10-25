@@ -235,21 +235,30 @@ footer #disclaimer2{
 
 
 /*our mission*/
-#mission header{
+#mission .index{
     background: linear-gradient(rgba(0, 0, 0, 0.596),transparent);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
 }
-#mission img{
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 50px;;
+
+#mission main .row{
+    margin:150px 100px
 }
-#mission .missionp{
-    float:right;
-    margin-right:200px;
+#mission main .missionbox{
+    padding-top: 70px;
+    width: 80%;
 }
+#mission main .missionbox p{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
 /*Sustainability Index Page*/
 #sustainindex .index {
     background: url(Website\ Images/sustainindex.jpg);
@@ -624,25 +633,7 @@ main .top-right img{
 #sustainindex main {
     height: 280px;
 }
-#mission .meth{
-    float:left;
-}
-#mission .meth h3{
-    padding-left:200px;
-}
-#mission .missionp{
-    float:right;
-    margin-right:5%;
-    width:60%;
-    font-size:20px;
-    margin-top:60px;
-}
-#mission main{
-    height: 500px;
-}
-#mission .meth img{
-    margin-left:20%;
-}
+
 
 #sustainindex .missionp p{
     font-size: 24px;
